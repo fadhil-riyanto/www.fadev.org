@@ -8,17 +8,18 @@ Fadhil Journal
 
 
 
-**Fadhil Riyanto**, (real-name), is a self-taught system programmer 
+**Fadhil Riyanto**, (real-name), a.k.a `Fadhil DEV (fadev)` is a self-taught system programmer 
 (also backend programmer in some case) live in Indonesian, 
 This is some short & dirty tutorial about computer science and litte about math.
 
-I believe, this piece of information is a building block to become ``Signed-off-by: Fadhil Riyanto <fadhil.riyanto@intel.com>``
+
 
 .. note::
-   migrating progress, be patient...
-   current deployment still contain a bunch of ``*.md`` files, all of them will converted to ``*.rst``
+   I believe, this piece of information is a building block to become ``Signed-off-by: Fadhil Riyanto <fadhil.riyanto@intel.com>``
 
-mirrors: `blog.fadhils.eu.org <https://blog.fadhils.eu.org/>`__
+mirrors available at
+
+- https://fadhils.eu.org
 
 Contributing
 ------------
@@ -37,18 +38,26 @@ other intresting site
 * `git.fadev.org (WIP) <https://git.fadev.org/>`__
 
 .. image:: https://www.gnu.org/graphics/gplv3-127x51.png
-.. image:: assets/python-logo-generic.svg
+.. image:: _images/python-logo-generic.svg
    :width: 200px
 
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Contents:
+   :caption: General
 
-   todo
-   rst/index
+   general/about
+   general/contacts
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Contents
+
    nftables/index
    arm/index
+   todo
 
 
 

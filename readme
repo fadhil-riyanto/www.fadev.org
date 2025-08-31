@@ -1,0 +1,14 @@
+Welcome to my personal blog, in order to do spesific task, run this following command
+
+`make html`: build the html, good for production env
+`bash ./run-theme.sh`: if you want debug theme, or other stuff under `./submodule/piccolo_theme`
+`bash ./run-live.sh`: watch your blog changes
+
+deploying
+
+run this following command
+- git submodule update
+- python -m venv venv
+- ./venv/bin/pip install -r requirements.txt
+
+license: GPL-v3

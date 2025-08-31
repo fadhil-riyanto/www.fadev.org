@@ -30,15 +30,11 @@ exclude_patterns = []
 html_theme = 'piccolo_theme'
 html_theme_path =  [os.path.abspath("../submodule/piccolo_theme")]
 
-html_static_path = ['_static']
-
 html_theme_options = {
-        "banner_text": 'New site of blog.fadev.org soon!!',
+        "banner_text": 'blog.fadev.org will be deprecated soon...',
         "show_theme_credit": True,
-        "source_url": "https://github.com/fadhil-riyanto/blog.fadev.org"
+        "source_url": "https://github.com/fadhil-riyanto/www.fadev.org"
 }
-
-
 
 extensions = [
         'sphinx.ext.duration',

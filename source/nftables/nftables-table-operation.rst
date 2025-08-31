@@ -33,9 +33,9 @@ Listing Tables
 
 The command ``nft list tables [<family>]`` is used to list tables, where ``<family>`` is optional.
 
-.. code-block:: sh
+.. code-block:: console
 
-root@integral2:~# nft list tables ip
-table ip nat
-table ip filter
-table ip raw
+  root@integral2:~# nft list tables ip
+  table ip nat
+  table ip filter
+  table ip raw
