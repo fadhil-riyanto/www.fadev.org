@@ -1,0 +1,3 @@
+[submodule "submodule/piccolo_theme"]
+	path = submodule/piccolo_theme
+	url = https://github.com/fadhil-riyanto/piccolo_theme.git
