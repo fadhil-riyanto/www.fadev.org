@@ -27,16 +27,28 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'piccolo_theme'
-html_theme_path =  [os.path.abspath("../submodule/piccolo_theme")]
+html_theme = 'pydata_sphinx_theme'
+
+html_context = {
+    "github_url": "https://github.com", 
+    "github_user": "fadhil-riyanto",
+    "github_repo": "www.fadev.org",
+    "github_version": "master",
+    "doc_path": "source",
+}
+
 
 html_theme_options = {
-        "banner_text": 'blog.fadev.org will be deprecated soon...',
-        "show_theme_credit": True,
-        "source_url": "https://github.com/fadhil-riyanto/www.fadev.org"
+        "navbar_end": ["navbar-icon-links"],
+        "use_edit_page_button": True,
+        "footer_center": ["aboutme", "contact"],
 }
+
+
 
 extensions = [
         'sphinx.ext.duration',
-        'myst_parser'
+        'sphinx_design',
+        'myst_parser',
+        'sphinx_copybutton'
 ]

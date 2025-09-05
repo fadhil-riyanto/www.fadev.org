@@ -12,21 +12,12 @@ nftables tables
 - **inet**: Allows applying rules for both IPv4 and IPv6 simultaneously.
 - **netdev**: Used for ingress packet handling.
 
-
-
-    ``Chains``
-    ------
-
-.. container:: type
-
 Types
 ------
 
 - **filter**: Applicable to ``arp``, ``bridge``, ``ip``, ``ip6``, and ``inet`` families.
 - **route**: Applicable to ``ip`` and ``ip6`` families.
 - **nat**: Applicable to ``ip`` and ``ip6`` families.
-
-.. container:: list_tables
 
 Listing Tables
 --------------

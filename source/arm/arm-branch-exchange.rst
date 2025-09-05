@@ -4,6 +4,7 @@ Branch exchange (BX)
 consider this simple code
 
 .. code-block:: c
+        
         int main() {
                 /* nop */
                 return 10;

@@ -2,7 +2,6 @@ ARM arch
 ===============
 
 .. toctree::
-    :caption: Contents:
     :maxdepth: 1
 
     ./arm-aarch32-abi
