@@ -167,3 +167,9 @@ To run this lab setup in QEMU, use the following command. Teletype terminal is u
                  -device virtconsole,chardev=char0 \
                  -chardev pty,id=char1 \
                  -device virtconsole,chardev=char1
+
+
+Tricks
+------
+
+in order to map PID into namespace without hassle, use :doc:`../server/map-pid-to-namespace`

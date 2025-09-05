@@ -9,3 +9,4 @@ Netfilter
     ./icmp
     ./nftables-block-ping
     ./see-the-conntrack
+    ./simple-nftables-dmz

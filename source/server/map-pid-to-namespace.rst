@@ -7,6 +7,8 @@ example, I doing ``unshare -r --net bash``, and get the pid via ``echo $$``. now
 that be executed using ``ip link set <IFACE> netns <HERE_OUR_NS>``
 
 .. code-block:: bash
+        :caption: map2ns.sh
+        :linenos:
 
         jump_mk_netns() {
                 mkdir -p /var/run/netns
