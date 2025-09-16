@@ -4,9 +4,10 @@ Netfilter
 .. toctree::
     :maxdepth: 1
 
-    ./nftables-table-operation
-    ./nftables-lab-setup
-    ./icmp
-    ./nftables-block-ping
-    ./see-the-conntrack
-    ./simple-nftables-dmz
+    ./icmp.rst
+    ./iptables-structure.md
+    ./nftables-block-ping.rst
+    ./nftables-lab-setup.rst
+    ./nftables-table-operation.rst
+    ./see-the-conntrack.rst
+    ./simple-nftables-dmz.rst
