@@ -12,6 +12,8 @@ Fadhil Journal
 (also backend programmer in some case) living in Indonesia. 
 This is some short & dirty tutorial about computer science and a little about math.
 
+`download my CV here <https://drive.google.com/file/d/1cZCvEXDd50bYP-EGwbf2KnI8BFzsSO7R/view?usp=sharing>`__
+
 .. note::
    I believe, this piece of information is a building block to become ``Signed-off-by: Fadhil Riyanto <fadhil.riyanto@intel.com>``
 
