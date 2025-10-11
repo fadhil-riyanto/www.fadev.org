@@ -3,7 +3,7 @@
 
 suppose
 
-```txt
+```text
 *** Unable to find the ncurses libraries or the
  *** required header files.
  *** 'make menuconfig' requires the ncurses libraries.
@@ -19,6 +19,6 @@ maka solusi
 `nano scripts/kconfig/lxdialog/Makefile`
 
 ubah
-```txt
+```text
 always         := $(hostprogs-y) dochecklxdialog
 ```

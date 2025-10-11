@@ -2,7 +2,7 @@
 
 # Peer A
 
-```txt
+```
 wg genkey > peer_A.key
 wg pubkey < peer_A.key > peer_A.pub
 sudo ip link add dev wg0 type wireguard
@@ -14,7 +14,7 @@ sudo wg set wg0 peer wkUbsVDVx4ljxY0lhf6PKE0r8yDD3QWZZSCz2NB9Bmw= allowed-ips 10
 
 # Peer B
 
-```txt
+```
 wg genkey > peer_B.key
 wg pubkey < peer_B.key > peer_b.pub
 sudo ip link add dev wg0 type wireguard

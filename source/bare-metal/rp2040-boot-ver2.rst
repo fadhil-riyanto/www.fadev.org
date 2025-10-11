@@ -3,6 +3,7 @@ RP2040 BOOT version 2
 
 this series is some sorts of completion of :doc:`rp2040-boot`
 
+
 This below is the sequence how RP2040 chip is actually boot, until we hit main function. 
 The Bootrom size is limited to 16kB. It contains
 
@@ -101,30 +102,30 @@ because the SIO register is word-aligned and started from address 0xd0000000, so
 
 after it, this asm code is launched by both processor, TL;DR. if core0, go ahead, if core1 go to sleep.
 
-.. code-block:: asm 
+.. code-block::
 
-  check_core:
-    // NOTE: We DO NOT use any stack prior to possible watchdog entry (this includes NMI vector handler)
-    ldr r0, =SIO_BASE
-    ldr r1, [r0, #SIO_CPUID_OFFSET]
-    cmp r1, #0
+    check_core:
+        // NOTE: We DO NOT use any stack prior to possible watchdog entry (this includes NMI vector handler)
+        ldr r0, =SIO_BASE
+        ldr r1, [r0, #SIO_CPUID_OFFSET]
+        cmp r1, #0
 
-  this code show us that 
-  - load 0xd0000000 into r0 
-  - then, compute r0 + CPUDID_OFFSET, which 
+this code show us that 
+- load 0xd0000000 into r0 
+- then, compute r0 + CPUDID_OFFSET, which 
 
 .. image:: ../_images/9639c29c765354ab14585ac8fb4c16351cfc4bd8aaf171d724a178ec26c582ec4a273507c2b6edf91f7a362296d7021b594b96d1b4e900fff7b031b3.png
 
-  - then, store the result into r1 
+- then, store the result into r1 
     
 .. note::
 
   because the docs itself say "Value is 0 when read from processor core 0, and 1 when read from processor core 1.", so we need to check if r1 is equal with 0. we do this with ``cmp r1, #0``
 
-other cond, when its not a core0, jump to ::ref:`wait_for_vector` 
+other cond, when its not a core0, jump to :ref:`here <wait_for_vector>` 
 
+.. _wait_for_vector:
 
-.. wait_for_vector:
 
 https://github.com/raspberrypi/pico-bootrom-rp2040/blob/ef22cd8ede5bc007f81d7f2416b48db90f313434/bootrom/bootrom_rt0.S#L329
 

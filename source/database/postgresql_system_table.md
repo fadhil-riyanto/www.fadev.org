@@ -1,6 +1,6 @@
 # system table in pgsql (catalog)
 
-### pg_tables | [docs](https://www.postgresql.org/docs/current/view-pg-tables.html)
+## pg_tables | [docs](https://www.postgresql.org/docs/current/view-pg-tables.html)
 
 catalog pgsql yang isinya data ttg table (di db saat ini), contoh query nya
 
@@ -13,7 +13,7 @@ WHERE
         x.schemaname = 'public';
 ```
 
-### pg_sequences
+## pg_sequences
 
 yg ini isinya sequence2 semua, mirip kayak serial datatype di pgsql
 ![image](../_images/94e4349ca37d30c1e51bc9e722767e2932e7c3d863bd4d0bfc941a764de78e033e68f4ecde81c5fa0152f9985d8f2d7e27502786debddaec09a57f68.png)

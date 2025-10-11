@@ -56,7 +56,7 @@ go to `/etc/nginx/sites-enabled`, and create a clone with `cp default docmost.fa
 
 fill it like this
 
-```conf
+```
 server_name docmost.fadev.org;
 
 location / {

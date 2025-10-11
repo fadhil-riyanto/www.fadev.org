@@ -14,7 +14,7 @@ say, char has 1 byte, int has 4 byte, long long has 8 byte. just multiply it wit
 ### step 1
 mask, lets see this pattern
 
-```txt
+```text
 0b11001000
 0b10000000
 ---------- &

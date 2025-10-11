@@ -10,7 +10,7 @@
 ```
 
 for example
-###
+##
 - the owner of file has read, write, and execute
 - file group only read and execute
 - the other only can read

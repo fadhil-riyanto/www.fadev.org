@@ -113,13 +113,13 @@ as you can see, optarg is magically return current character based on switch cas
 # POSIX getopt (only)
 its parse command line like this
 
-### no args params
+## no args params
 this option did not receive any arguments, so the optarg value is will be null
 `./prog -v`, use optstring something like this `v`
 
 ![image](../_images/9eac7b897acc6be415fa552aa839ddffd1211ab703f63a4357c9979cd29d97083d16453b9763bba1a0026989f6beefe7c4c88d768bb011588864ca63.png)
 
-### optional params
+## optional params
 `./prog -p=8000 -l=127.0.0.1`, use optsting `p::l::`
 
 this is wrong example

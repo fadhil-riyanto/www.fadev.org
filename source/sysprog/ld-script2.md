@@ -216,7 +216,7 @@ int lib_call(const char *str) {
 
 then, the `linker.ld` (this is the our experiment)
 
-```ld
+```text
 ENTRY(_start)
 
 SECTIONS {
@@ -271,7 +271,7 @@ let's decompile each object file with `objdump -d -s .text <filename>`, and here
 
 ## extern.c
 
-```txt
+```text
 /**
  * this is objdump for extern.c
  */
@@ -297,7 +297,7 @@ Disassembly of section .text:
 ```
 
 ## main.c
-```txt
+```text
 
 /**
  * this is objdump for main.c
@@ -344,7 +344,7 @@ Disassembly of section .text:
 
 # startup.S
 
-```txt
+```text
 
 /**
  * this is objdump for startup.S
@@ -365,7 +365,7 @@ Disassembly of section .text:
 
 ## overall
 
-```txt
+```text
 fadhil_riyanto@integral2: 22:25:06 08/16/25 $ objdump -d -j .text prog.elf
 
 prog.elf:     file format elf64-x86-64

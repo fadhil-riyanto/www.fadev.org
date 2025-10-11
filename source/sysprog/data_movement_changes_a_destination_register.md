@@ -6,7 +6,7 @@ As described, there are two different conventions regarding whether and how data
 tions modify the upper bytes of a destination register. This distinction is illustrated by the following
 code sequence:
 
-```txt
+```
 1 movabsq $0x0011223344556677, %rax %rax = 0011223344556677
 2 movb $-1, %al %rax = 00112233445566FF
 3 movw $-1, %ax %rax = 001122334455FFFF

@@ -95,12 +95,12 @@ int main() {
 }
 ```
 
-### func `create_node`
+## func `create_node`
 Walau bukan bagian dari tugas, saya sekalian jelaskan saja. intinya func ini membuat node baru, yang isinya prev dan next, diisi nullptr (alias nullpointer), dan datanya.
 
 jadi maksud func ini, kita bikin node yang bener2 kosong tanpa terhubung ke siapapun. lalu return value nya.
 
-### func `insert_last`
+## func `insert_last`
 Cara kerjanya spt ini. 
 
 - kita buat dulu node nya (node yg tidak terhubung dgn siapapun pakai create_node)
@@ -112,13 +112,13 @@ Cara kerjanya spt ini.
 
 nb: `Node *&head` artinya nge-deferensi pointer, sekaligus kalau ada perubahan data, sekalian di update, jadi misal ubah data di func delete_last, maka kalau dibaca oleh insert_first, data yg kita share tetep singkron
 
-### func `insertFirst` 
+## func `insertFirst` 
 nah, ini func paling easy wkwk, karna head guarantee akan selalu point ke depan, maka untuk nyispin data didepan sangatlah easy.
 
 buat node baru, lalu node baru (next nya) diisi head.
 untuk prev (milik nya node lama) kita addr node baru.
 
-### func `delete_first`
+## func `delete_first`
 konsepnya mirip dengan insert first, hanya saja
 
 - karna head selalu point ke depan, maka kita perlu simpan head (yang sekarang), lalu saatnya pindah state ke node sebelahnya (kekanan)

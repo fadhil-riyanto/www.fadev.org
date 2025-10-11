@@ -2,7 +2,7 @@
 
 Documentation/x86/x86_64/mm.txt
 
-```txt
+```text
 
 <previous description obsolete, deleted>
 

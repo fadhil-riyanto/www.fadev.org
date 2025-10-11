@@ -121,18 +121,18 @@ this docs can be found in [https://www.postgresql.org/docs/16/catalog-pg-databas
 
 ## management script collection
 
-#### - show all databases (in current user)
+### - show all databases (in current user)
 ```sql
 SELECT * FROM pg_catalog.pg_database;`:
 ```
-#### - show `pg_catalog.pg_tables` definition
+### - show `pg_catalog.pg_tables` definition
 
 go back on top in order to see what actually view is
 ```sql
 SELECT pg_get_viewdef('pg_catalog.pg_tables', true);`: 
 ```
 
-#### - show all available pgsql datatype
+### - show all available pgsql datatype
 ```sql
 SELECT 
 	*
@@ -140,7 +140,7 @@ FROM
 	pg_catalog.pg_type;
 ```
 
-#### - lists all schema
+### - lists all schema
 ```sql
 SELECT
     *
@@ -148,7 +148,7 @@ FROM
     pg_catalog.pg_namespace;
 ```
 
-#### - show all dbs with owner
+### - show all dbs with owner
 
 ```sql
 SELECT 
@@ -163,7 +163,7 @@ FROM pg_catalog.pg_database as x;
 
 cond: [https://www.postgresql.org/docs/current/functions-conditional.html#FUNCTIONS-CASE](https://www.postgresql.org/docs/current/functions-conditional.html#FUNCTIONS-CASE)
 
-#### - RENAME db (as postgres user)
+### - RENAME db (as postgres user)
 ```sql
 ALTER DATABASE xyz RENAME TO abc;
 ```

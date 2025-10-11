@@ -4,7 +4,7 @@ Disini saya akan membahas apa itu instruksi MOVSBL dan MOVZBL. pertama tama sila
 - [https://stackoverflow.com/questions/7861095/what-does-movsbl-instruction-do](https://stackoverflow.com/questions/7861095/what-does-movsbl-instruction-do)
 
 
-```txt
+```text
 MOVSBL and MOVZBL
 * MOVSBL sign-extends a single byte, and copies it into a
   double-word destination

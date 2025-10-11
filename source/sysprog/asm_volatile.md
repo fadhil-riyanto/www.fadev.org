@@ -4,7 +4,7 @@ ref: https://gcc.gnu.org/onlinedocs/gcc/Extended-Asm.html
 
 formal syntax:
 
-```txt
+```
 asm asm-qualifiers ( AssemblerTemplate 
                  : OutputOperands 
                  [ : InputOperands

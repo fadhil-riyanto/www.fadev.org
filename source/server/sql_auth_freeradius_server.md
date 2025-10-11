@@ -28,7 +28,6 @@ get it inside. then run
 do not forget to allow CRUD option on all tables by running
 
 ```sql
-\c radius
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO radius;
 ```
 

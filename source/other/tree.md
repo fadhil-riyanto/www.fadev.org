@@ -33,10 +33,7 @@ struct ListNode {
 
 terlihat? selain hold data `val` yang isinya char, kita ada opsi untuk hold pointer prev dan pointer next. dimana ini adalah kunci dari tree.
 
-## contoh meng-isinya
-
-ada tree seperti ini
-![image](/../_images/44cc7ec324a3454a5419ed656412246ae1548b060c631f05fac4829d3a41d4966443696f0942c5ec088680984a7e60565ebbd45e01d0298a1b7bc6b3.png)
+## contoh mengisinya
 
 ini contoh cara mengisinya
 ```c

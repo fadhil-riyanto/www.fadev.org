@@ -10,7 +10,7 @@ initial dulu
 ![image](../_images/46453cea0bda238960726005cf23bc143f51ffe55f0b632fec36ca3b4846d7dee3ad43e7ab4841b29e64d1a9344ee30bbb3ea46e8812f2b3f9f64a24.png)
 
 lalu, next replace address 0x555555555119 dengan 
-```txt
+```
 set {unsigned char[8]}0x555555555119 = {0x48, 0xc7, 0xc0, 0xff, 0xff, 0xff, 0xff, 0x90}
 ```
 

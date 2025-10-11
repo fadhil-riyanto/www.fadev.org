@@ -2,7 +2,7 @@
 
 intresting buat diulik
 
-```cc
+```cpp
 class rectangle {
         int width, height;
 
@@ -31,7 +31,7 @@ compile pakai
 - `nm -C librec.so`
 
 akan ada
-```txt
+```text
 000000000000110e T rectangle::area()
 00000000000010ea T rectangle::set_value(int, int)
 ```

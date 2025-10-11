@@ -4,7 +4,7 @@ cara setup virtual ethernet + assign ip nya
 - `sudo ip link add veth0 type dummy`
 
 bisa dicek pakai `ip addr`
-```txt
+```
 [11:11:35] fadhil_riyanto@integral2 /etc/systemd/network  
 > ip addr
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
