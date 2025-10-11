@@ -1,5 +1,5 @@
 Sysprog
-======
+=======
 
 This section provides an overview of the server architecture, 
 its main components, and some random config & virtual ethernet!
@@ -53,3 +53,4 @@ this also contain hypervisor setup too
     ./types-war.md
     ./vt_hexdump.md
     ./x86_64_reg.md
+    ./make-shared-libs.rst

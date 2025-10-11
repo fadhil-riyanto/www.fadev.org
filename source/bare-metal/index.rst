@@ -21,3 +21,4 @@ Bare Metal
     ./rp2040-memory-layout.md
     ./rp-2040-sram-layout.md
     ./rp2040-stdio-init-all.md
+    ./rp2040-boot-ver2.rst
